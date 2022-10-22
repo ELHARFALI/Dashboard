@@ -16,6 +16,20 @@
     align-items: center;
 }
 
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+
 .w-full {
     width: 100%;
 }
@@ -151,6 +165,12 @@
 /* Start Font */
 .txt-c {
     text-align: center;
+}
+
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
 }
 
 .fs-14 {
