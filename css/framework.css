@@ -206,7 +206,11 @@
 }
 
 .fs-14 {
-    font-size: 14;
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
 }
 /* End Font */
 
@@ -219,6 +223,10 @@
     border-radius: 10px;
 }
 
+.b-none {
+    border: none;
+}
+
 /* End Border */
 
 /* start components */
@@ -226,6 +234,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
 }
 /* end components */
 .overflow-hidden {

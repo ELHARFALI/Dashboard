@@ -273,3 +273,18 @@ ul {
     }
 }
 /* End Welcome Widget */
+/* Start Quick Draft Widget */
+.quick-draft textarea {
+    resize: none;
+    min-height: 180px;
+}
+
+.quick-draft .save {
+    margin-left: auto;
+    transition: 300ms;
+}
+
+.quick-draft .save:hover {
+    background-color: var(--blue-alt-color);
+}
+/* End Quick Draft Widget */
