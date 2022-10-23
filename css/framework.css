@@ -171,8 +171,28 @@
     background-color: var(--blue-color);
 }
 
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
 .c-white {
     color: white;
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-green {
+    color: var(--green-color);
 }
 
 .c-black {
@@ -212,6 +232,10 @@
 .fs-15 {
     font-size: 15px;
 }
+
+.fw-bold {
+    font-weight: bold;
+}
 /* End Font */
 
 /* Start Border */
@@ -233,6 +257,12 @@
 .between-flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
